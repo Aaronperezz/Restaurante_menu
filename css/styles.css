@@ -1,0 +1,61 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+strong {
+  color: #bfa046;
+}
+.restaurant-title {
+  font-family: "UnifrakturCook", cursive;
+  font-size: 3rem;
+  color: #bfa046;
+}
+
+.subtitle {
+  color: #bfa046;
+  margin-top: 1rem;
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+}
+
+.allergens i {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+.allergens div {
+  font-size: 0.8rem;
+  color: #ddd;
+}
+
+.menu-section {
+  padding: 2rem 1rem;
+  border-top: 1px solid #333;
+}
+
+.section-title {
+  color: #bfa046;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+footer {
+  background-color: #111;
+  color: #ccc;
+}
+
+footer .nav-link {
+  font-size: 0.9rem;
+}

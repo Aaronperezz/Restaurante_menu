@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EL TEMPLE - Menú Digital</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="text-center py-5">
+      <h1 class="restaurant-title">EL TEMPLE</h1>
+      <img
+        src="./assets/logo_Temple.jpg"
+        alt="Logo del restaurante"
+        class="logo my-3"
+      />
+      <h4 class="subtitle">Nuestros platos pueden contener trazas de:</h4>
+
+      <!-- Iconos de alérgenos -->
+      <div class="container mt-4">
+        <div class="row row-cols-md-7 g-3 text-center allergens">
+          <div class="col">
+            <i class="fas fa-cheese"></i>
+            <div>Lácteos</div>
+          </div>
+          <div class="col">
+            <i class="fas fa-fish"></i>
+            <div>Pescado</div>
+          </div>
+          <div class="col">
+            <i class="fas fa-shrimp"></i>
+            <div>Crustáceos</div>
+          </div>
+          <div class="col">
+            <i class="fas fa-seedling"></i>
+            <div>Sésamo</div>
+          </div>
+          <div class="col">
+            <i class="fas fa-leaf"></i>
+            <div>Soja</div>
+          </div>
+          <div class="col">
+            <i class="bi bi-virus"></i>
+            <div>Frutos secos</div>
+          </div>
+          <div class="col">
+            <i class="fas fa-water"></i>
+            <div>Moluscos</div>
+          </div>
+
+          <div class="col">
+            <i class="fas fa-egg"></i>
+            <div>Huevo</div>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-flask"></i>
+            <div>Sulfitos</div>
+          </div>
+          <div class="col">
+            <i class="bi bi-cookie"></i>
+            <div>Cacahuetes</div>
+          </div>
+          <div class="col">
+            <!-- fas fa-hotdog -->
+            <i class="bi bi-droplet-fill"></i>
+            <div>Mostaza</div>
+          </div>
+          <div class="col">
+            <i class="fas fa-seedling"></i>
+            <div>Apio</div>
+          </div>
+          <div class="col">
+            <i class="fas fa-bread-slice"></i>
+            <div>Gluten</div>
+          </div>
+          <div class="col">
+            <i class="bi bi-virus2"></i>
+            <div>Altramuz</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Secciones del menú -->
+    <main class="container">
+      <!-- Entrantes -->
+      <section id="entrantes" class="menu-section">
+        <h2 class="section-title">Entrantes</h2>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Bravas Caseras:</strong><br /><small
+                >Patatas con alioli y salsa picante</small
+              >
+              <i class="fas fa-pepper-hot"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">6,50€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Chorizo con Arepa o Patatas:</strong><br /><small
+                >Provolone al horno con orégano</small
+              >
+              <i class="fas fa-cheese"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">7,00€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Tequeños</strong><br /><small
+                >Tabla de embutidos artesanos</small
+              >
+              <i class="fas fa-bread-slice"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">12,00€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Hummus de cruzada</strong><br /><small
+                >Con pan de pita y crudités</small
+              >
+              <i class="fas fa-seedling"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">5,90€</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bocadillos -->
+      <section id="bocadillos" class="menu-section">
+        <h2 class="section-title">Bocadillos</h2>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Bocadillo del Santo Grial</strong><br /><small
+                >Jamón ibérico, tomate y aceite de oliva</small
+              >
+              <i class="fas fa-bread-slice"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">6,80€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Bocadillo Vegano</strong><br /><small
+                >Tofu, lechuga y salsa sésamo</small
+              >
+              <i class="fas fa-leaf"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">6,00€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>El Guerrero</strong><br /><small
+                >Lomo, pimientos y queso manchego</small
+              >
+              <i class="fas fa-cheese"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">7,50€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Caballero del Atún</strong><br /><small
+                >Atún, mayonesa y huevo cocido</small
+              >
+              <i class="fas fa-fish"></i> <i class="fas fa-egg"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">6,30€</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sandwiches -->
+      <section id="sandiwch" class="menu-section">
+        <h2 class="section-title">Sándwiches</h2>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Sándwich Templario</strong><br /><small
+                >Pechuga, queso y mostaza dulce</small
+              >
+              <i class="fas fa-drumstick-bite"></i>
+              <i class="fas fa-hotdog"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">5,90€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Sándwich del Prior</strong><br /><small
+                >Huevo, jamón y lechuga</small
+              >
+              <i class="fas fa-egg"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">5,70€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Vegetal de la Orden</strong><br /><small
+                >Lechuga, tomate, espárragos y hummus</small
+              >
+              <i class="fas fa-seedling"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">5,50€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Sándwich Apóstol</strong><br /><small
+                >Queso azul, nueces y miel</small
+              >
+              <i class="fas fa-cheese"></i> <i class="fas fa-acorn"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">6,10€</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hamburguesas -->
+      <section id="hamburguesas" class="menu-section">
+        <h2 class="section-title">Hamburguesas</h2>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>La Cruzada</strong><br /><small
+                >Ternera, cheddar, bacon, salsa barbacoa</small
+              >
+              <i class="fas fa-bacon"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">9,90€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Hamburguesa Vegana</strong><br /><small
+                >Heura, guacamole, tomate y rúcula</small
+              >
+              <i class="fas fa-leaf"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">9,00€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>La Orden</strong><br /><small
+                >Pollo crujiente, mostaza y miel</small
+              >
+              <i class="fas fa-hotdog"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">8,50€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Barbacoa Real</strong><br /><small
+                >Carne de cerdo, cheddar, cebolla frita</small
+              >
+              <i class="fas fa-drumstick-bite"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">9,20€</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bebidas -->
+      <section id="bebidas" class="menu-section">
+        <h2 class="section-title">Bebidas</h2>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Agua mineral</strong><br /><small>Botella 500ml</small>
+              <i class="fas fa-tint"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">1,50€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Refresco templario</strong><br /><small
+                >Coca-Cola, Fanta o Sprite</small
+              >
+              <i class="fas fa-glass-martini-alt"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">2,20€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Cerveza</strong><br /><small>Artesanal rubia 33cl</small>
+              <i class="fas fa-beer"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">3,00€</p>
+          </div>
+        </div>
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-md-8">
+            <p>
+              <strong>Vino de la Casa</strong><br /><small>Tinto joven</small>
+              <i class="fas fa-wine-bottle"></i>
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p class="price">3,50€</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <!-- <a href="#top" class="btn btn-outline-light mb-3">Volver arriba</a> -->
+      <div class="nav justify-content-center">
+        <a href="#entrantes" class="nav-link text-white">Entrantes</a>
+        <a href="#bocadillos" class="nav-link text-white">Bocadillos</a>
+        <a href="#sandiwch" class="nav-link text-white">Sándwiches</a>
+        <a href="#hamburguesas" class="nav-link text-white">Hamburguesas</a>
+        <a href="#bebidas" class="nav-link text-white">Bebidas</a>
+      </div>
+      <div>
+        <p class="text-muted mt-5">
+          © Derechos de autor. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
